@@ -184,6 +184,7 @@ include(cmake/core.cmake)
 
 if(COMMAND mbgl_platform_test)
     include(cmake/test.cmake)
+    include(cmake/test-runner.cmake)
 endif()
 
 if(COMMAND mbgl_platform_benchmark)

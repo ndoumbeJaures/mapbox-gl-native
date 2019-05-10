@@ -94,3 +94,9 @@
 [submodule "vendor/args"]
 	path = vendor/args
 	url = https://github.com/Taywee/args
+[submodule "vendor/mvt-fixtures"]
+	path = vendor/mvt-fixtures
+	url = git@github.com:mapbox/mvt-fixtures.git
+[submodule "vendor/mapbox-gl-styles"]
+	path = vendor/mapbox-gl-styles
+	url = git@github.com:mapbox/mapbox-gl-styles.git

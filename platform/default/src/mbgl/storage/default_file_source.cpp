@@ -315,7 +315,7 @@ void DefaultFileSource::pause() {
 void DefaultFileSource::resume() {
     impl->resume();
 }
-    
+
 void DefaultFileSource::put(const Resource& resource, const Response& response) {
     impl->actor().invoke(&Impl::put, resource, response);
 }
